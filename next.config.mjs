@@ -20,6 +20,9 @@ const nextConfig = {
   experimental: {
     scrollRestoration: true,
   },
+  images: {
+    domains: ['versity-images.s3.us-west-2.amazonaws.com'],
+  },
 }
 
 export default withMDX(nextConfig)
